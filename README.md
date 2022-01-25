@@ -39,3 +39,9 @@ Piece of code which does something.
 # Autoboxing 
 - Changing the type and then making it same as earlier.
 Example : console.log('djcnfv'.length); length is there in object not in string but it gets converetd into object and then back to string.
+# Type checking
+- console.log(typeof(undefined), typeof(null)); // undefined object
+- console.log(undefined == null ); // True
+- console.log(undefined === null ); // False
+- console.log(''===false); // false
+- console.log(''==false); // True
