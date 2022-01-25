@@ -45,3 +45,5 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - console.log(undefined === null ); // False
 - console.log(''===false); // false
 - console.log(''==false); // True
+
+# Closures
