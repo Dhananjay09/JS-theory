@@ -48,3 +48,5 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 
 # Closures
 - It refers to ability of a function to remember and modify the variables of parent, grandparent...... scope.
+# use if Closures
+- Event Handler, Callbacks, etc because these need to remenber their parents scope.
