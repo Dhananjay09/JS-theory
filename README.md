@@ -1,4 +1,7 @@
 # JS-theory
+# Primitive vs Non Primitive
+In primitive type of values comarission is done based on value but in case of Non Primitive it is done base on refrence.
+# Primitive Types in Js
 - String
 - Number
 - Boolean
