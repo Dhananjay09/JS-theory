@@ -47,3 +47,4 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - console.log(''==false); // True
 
 # Closures
+- It refers to ability of a function to remember and modify the variables of parent, grandparent...... scope.
