@@ -19,3 +19,23 @@ Piece of code which does something.
 - var x = Number(Infinity); // x = Infinity
 - var x = Number(false); // x= 0
 - var x = Number(true); // x= 1
+- var x = Number(NaN); // x=NaN
+# NAN
+- It stand for Not A Number, it is considered as error.
+- Equality is not valid for NaN. NaN === NaN will give false result.
+# Static vs Dynamic
+- If type is known at the time of Compiling it is Static.
+- If type is known at run time, it is Dynamic.
+# Static Type vs Dynamic Type
+- If types are specified at compile time and vice versa in case of Dynamic.
+# Static Type Cheching vs Dynamic Type Checking
+- To perform the operations in case of the being the type same is Static else Dynamic.
+# JS Types
+- Js has 5 primitive type and one Object type.
+# Coercion or TypeCasting
+- Converting the data types of the variables.
+# Implicit Type Casting vs Explicit type Casting
+- Type getting converted automatically is Implicit but doing by own is explicit.
+# Autoboxing 
+- Changing the type and then making it same as earlier.
+Example : console.log('djcnfv'.length); length is there in object not in string but it gets converetd into object and then back to string.
