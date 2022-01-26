@@ -58,3 +58,5 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - this completly depends on how the function has been called.
 # Default binding
 - When neither class not object is associated with this keyword, this refers to window.
+# Implicit bindng
+- Passing object imlicitly for this.
