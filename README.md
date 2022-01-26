@@ -60,3 +60,10 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - When neither class not object is associated with this keyword, this refers to window.
 # Implicit bindng
 - Passing object imlicitly for this.
+# Explicit Binding
+- Call, bind, apply
+# Bind
+- Bind is a function called with an object to specify the this keyword. It is permanetly binded to the object pass.
+- const antmethod(a,b)
+- const bindedfunction = anymethod.bind(null, a);
+- bindedfunction(b); //Will work 
