@@ -67,3 +67,13 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - const antmethod(a,b)
 - const bindedfunction = anymethod.bind(null, a);
 - bindedfunction(b); //Will work 
+# Call
+- It does not return a function, but works simmilarily. This is not permanently binded.
+# Apply
+- It is same as call but arguments are called as array. It is used if we don't amount of arguments are given.
+- We can call Math.max.apply(null, [2,3,2,5]); 
+- It will not work as Math.max([1,3,4,2,5])
+# use strict
+- By writing that we execute our code in strict mode.
+- It does not silently ignore the ignorable errors.
+- use strict makes the code more efficient.
