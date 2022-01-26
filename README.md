@@ -48,5 +48,13 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 
 # Closures
 - It refers to ability of a function to remember and modify the variables of parent, grandparent...... scope.
-# use if Closures
+# use of Closures
 - Event Handler, Callbacks, etc because these need to remenber their parents scope.
+
+# Methods
+- Methods are functions which are always called with objects.
+# this keywork
+- 'this' is run time binding.
+- this completly depends on how the function has been called.
+# Default binding
+- When neither class not object is associated with this keyword, this refers to window.
