@@ -84,3 +84,8 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - Everything in js is object except primitives.
 - Array, functions and objects itself are objects.
 - Object is collection of properties[key-value pair].
+- Every ken of js property should be string, value can be anything.
+# Creating objects
+- const obj = {};
+- const obj = new Object();//do not use
+- const obj = Object.create(Object.prototype);
