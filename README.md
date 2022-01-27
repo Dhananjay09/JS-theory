@@ -125,3 +125,17 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - To point the parent as obj.
 # prototype function
 - Any function executed with new keyword is called constructor function.
+- It return this if nothing is retuned or non object value is returned.
+# Diffrent between .prototype and [[prototype]]
+- [[prototype]] is an internal property present in all objects.
+- Its value can be refrence of another object or null. like parent.
+- prototype is an present only inside the function, not inside arrow functions.
+- It contains value or methods that are shared amoung all the objects of that class.
+# ES6 introduces class which are syntactic sugar of the function.
+- class Dj{
+- constructor(a,b){
+- this.a =a;
+- this.b =b;
+- }
+- }
+-
