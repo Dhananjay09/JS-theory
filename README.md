@@ -89,3 +89,5 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - const obj = {};
 - const obj = new Object();//do not use
 - const obj = Object.create(Object.prototype);
+- Deletion can be done using delete obj.property.
+# obj.hasOwnProperty() showld be used to check if a property exist or not. Because 'prop' in obj given the property that are accessible to obj.
