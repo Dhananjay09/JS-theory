@@ -91,3 +91,15 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - const obj = Object.create(Object.prototype);
 - Deletion can be done using delete obj.property.
 # obj.hasOwnProperty() showld be used to check if a property exist or not. Because 'prop' in obj given the property that are accessible to obj.
+# Object.keys(obj)
+- To get all the keys of object only, exclusing the symbols.
+# Reflect.ownKeys() 
+- To get all the keys of object obly with symbol.
+# Object.values(obj)
+- To get all the values in the object only.
+# Object.entries(obj) 
+- to get all the value, key - value pair in obj.
+# Charecterstics of Prototypal Language
+- Classes are not present.
+- Everything is public. No private or protected.
+- Object inherits Objects.
