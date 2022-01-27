@@ -121,3 +121,5 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - console.log(obj2.name); // dj
 # Object.setPrototypeOf(child, parent);
 - Modifyting prototype of child to point another object as its parent.
+# child.__proto__ = obj
+- To point the parent as obj.
