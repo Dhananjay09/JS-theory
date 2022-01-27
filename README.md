@@ -113,3 +113,9 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 # Delegation 
 - Searching the property to parent or in grandparent is called delegation.
 # Any object has only read access to protype chain.
+# Accessing the prototype
+# Object.getPrototypeOf()
+- const obj1 = {name : 'dj'};
+- const obj2 = Object.create(obj1);
+- console.log(Object.getPrototypeOf(obj2)); // {name : dj}
+- console.log(obj2.name); // dj
