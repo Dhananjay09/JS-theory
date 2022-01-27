@@ -103,3 +103,8 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - Classes are not present.
 - Everything is public. No private or protected.
 - Object inherits Objects.
+- Not traditibal Oops language.
+# Prototype
+- Prototype is working object instance.
+- Every object in js has one parent by default until it is difined to be null.
+- Every object has an property Prototype and every instance of a function is also said prototype.
