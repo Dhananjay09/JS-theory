@@ -119,3 +119,5 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - const obj2 = Object.create(obj1);
 - console.log(Object.getPrototypeOf(obj2)); // {name : dj}
 - console.log(obj2.name); // dj
+# Object.setPrototypeOf(child, parent);
+- Modifyting prototype of child to point another object as its parent.
