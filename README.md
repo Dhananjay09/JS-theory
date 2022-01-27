@@ -123,3 +123,5 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - Modifyting prototype of child to point another object as its parent.
 # child.__proto__ = obj
 - To point the parent as obj.
+# prototype function
+- Any function executed with new keyword is called constructor function.
