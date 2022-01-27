@@ -77,3 +77,10 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - By writing that we execute our code in strict mode.
 - It does not silently ignore the ignorable errors.
 - use strict makes the code more efficient.
+# new
+- new keyword is used when we want to make a function behave like constructor method.
+- in this case value of this becomes {}.
+# Objects
+- Everything in js is object except primitives.
+- Array, functions and objects itself are objects.
+- Object is collection of properties[key-value pair].
