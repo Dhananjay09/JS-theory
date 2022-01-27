@@ -108,3 +108,5 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - Prototype is working object instance.
 - Every object in js has one parent by default until it is difined to be null.
 - Every object has an property Prototype and every instance of a function is also said prototype.
+# Prototype-based Programming Language
+- Method of reusing the functionality in js is known as Prototype based programming language where objects are linked with each other using their prototypes.
