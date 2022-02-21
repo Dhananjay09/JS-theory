@@ -220,3 +220,17 @@ class Dhananjay extends Dj{
 - By this way all the other 3 properties will be false.
 - ![Accessing properties](https://github.com/Dhananjay09/JS-theory/blob/main/Screenshot%20from%202022-02-21%2019-40-24.png)
 
+# Protecting Objects
+- Preventing Extensions
+- Sealing
+- Freezing
+
+# Preventing Extensions
+- Object.preventExtentions(obj) => Can't add extra properties to any object.
+- Object.isExtensible()
+
+# Sealing
+- Same as Extensible but added configurable as true. So we can't delete the property.
+
+# Freezing
+- Same as Sealing but now can't delete also, in this writable is false.
