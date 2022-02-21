@@ -90,7 +90,7 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 # Creating objects
 - const obj = {};
 - const obj = new Object();//do not use
-- const obj = Object.create(Object.prototype);
+- const obj = Object.create(Object.prototype);https://github.com/Dhananjay09/JS-theory/blob/main/Screenshot%20from%202022-02-21%2019-40-24.png
 - Deletion can be done using delete obj.property.
 # obj.hasOwnProperty() showld be used to check if a property exist or not. Because 'prop' in obj given the property that are accessible to obj.
 # Object.keys(obj)
@@ -218,5 +218,5 @@ class Dhananjay extends Dj{
 - Object.defineProperty(obj, 'name' , { value : "Dhananjay" })
 - This will make the object as obj = {name : "Dhananjay"}, 
 - By this way all the other 3 properties will be false.
-
+[[https://github.com/Dhananjay09/JS-theory/blob/main/Screenshot%20from%202022-02-21%2019-40-24.png]]
 
