@@ -134,11 +134,36 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - .prototype is an present only inside the function, not inside arrow functions.
 - It contains value or methods that are shared amoung all the objects of that class.
 - [[prototype]] can't be modified but .prototype can be modified.
+
+# Prototypes 
+function Person(){
+}
+const p = new Person()
+- Object.getPrototypeof(p) => Person.prototype
+- Object.getPrototypeof(Person) => Function.prototype
+- Object.getPrototypeof(Object) => Function.prototype
+- Object.getPrototypeof(Function.prototype) => Object.prototype
+- Object.getPrototypeof(Object.prototype) => null
+
 # ES6 introduces class which are syntactic sugar of the function.
 - class Dj{
-- constructor(a,b){
-- this.a =a;
-- this.b =b;
-- }
-- }
--
+    constructor(name){
+        this.name = name
+    }
+    getName(){
+        return this.name
+    }
+    setName(name){
+        this.name = name
+    }
+}
+
+class Dhananjay extends Dj{
+    constructor(name, id){
+        super(name)
+        this.id=id
+    }
+    getName(){
+        return super.getName()
+    }
+}
