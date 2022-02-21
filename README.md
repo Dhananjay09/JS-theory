@@ -234,3 +234,5 @@ class Dhananjay extends Dj{
 
 # Freezing
 - Same as Sealing but now can't delete also, in this writable is false.
+# Descriptor
+![](https://github.com/Dhananjay09/JS-theory/blob/main/Screenshot%20from%202022-02-21%2019-58-41.png)
