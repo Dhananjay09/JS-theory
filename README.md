@@ -218,3 +218,5 @@ class Dhananjay extends Dj{
 - Object.defineProperty(obj, 'name' , { value : "Dhananjay" })
 - This will make the object as obj = {name : "Dhananjay"}, 
 - By this way all the other 3 properties will be false.
+
+
