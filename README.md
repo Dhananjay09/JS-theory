@@ -203,3 +203,18 @@ class Dhananjay extends Dj{
 
 # Object.getOwnPropertyDescriptor(obj)
 - This will retuen all the four building blocks of each property in teh object.
+
+# [[writable]] 
+- Can we modify or not.
+# [[Enumerable]]
+- We can enumerate over the property through for in or not.
+# [[Configurable]]
+- It tells that we can delete or not, we can change the property type or not elc.
+
+# Accessor Properties building block
+- These are [[Get]], [[Set]], [[Enumerable]], [[Configurable]]
+
+# Setting these Properties
+- Object.defineProperty(obj, 'name' , { value : "Dhananjay" })
+- This will make the object as obj = {name : "Dhananjay"}, 
+- By this way all the other 3 properties will be false.
