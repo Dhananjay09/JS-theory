@@ -47,9 +47,11 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 - console.log(''==false); // True
 
 # Closures
+- Closure is a function that returns a function by wrapping the variables.
 - It refers to ability of a function to remember and modify the variables of parent, grandparent...... scope.
+
 # use of Closures
-- Event Handler, Callbacks, etc because these need to remenber their parents scope.
+- Creating Encaptulation, Event Handler, Callbacks, etc because these need to remenber their parents scope.
 
 # Methods
 - Methods are functions which are always called with objects.
