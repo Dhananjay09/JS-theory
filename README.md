@@ -131,8 +131,9 @@ Example : console.log('djcnfv'.length); length is there in object not in string 
 # Diffrent between .prototype and [[prototype]]
 - [[prototype]] is an internal property present in all objects.
 - Its value can be refrence of another object or null. like parent.
-- prototype is an present only inside the function, not inside arrow functions.
+- .prototype is an present only inside the function, not inside arrow functions.
 - It contains value or methods that are shared amoung all the objects of that class.
+- [[prototype]] can't be modified but .prototype can be modified.
 # ES6 introduces class which are syntactic sugar of the function.
 - class Dj{
 - constructor(a,b){
