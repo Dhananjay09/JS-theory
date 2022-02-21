@@ -167,3 +167,39 @@ class Dhananjay extends Dj{
         return super.getName()
     }
 }
+
+# Type of Properties in Js
+- There are three types of property
+- Data Property
+- Internal Property
+- Accessor Property
+
+# Data Property
+- Most commonly used property. 
+- For example  const data = {  name :  "Dhananajay"}
+
+# Internal property
+- [[prototype]] these properties can't be directly accessed/modified, to modify them we need some js apis.
+
+# Accessor properties
+- These properties look likes to be data properties but they are not actually.
+- const data = {
+- nm = "Dhananjay",
+- get name(){
+- return this.nm;
+- }
+- set name(name){
+- this.nm = name;
+- }
+- }
+- Now we can use them as data.name, or data.name= "Ajay". 
+
+# Buildinhg blocks of js are not the properties but building blocks are attributes. 
+- Each property {name : 'dj'} has four attributes, 
+- [[value]], [[writable]], [[Enumerable]], [[Configurable]], which are building block of the js.
+
+# Descriptor
+- Descriptor is set of properties.
+
+# Object.getOwnPropertyDescriptor(obj)
+- This will retuen all the four building blocks of each property in teh object.
