@@ -236,3 +236,12 @@ class Dhananjay extends Dj{
 - Same as Sealing but now can't delete also, in this writable is false.
 # Descriptor
 ![](https://github.com/Dhananjay09/JS-theory/blob/main/Screenshot%20from%202022-02-21%2019-58-41.png)
+
+# Js is non blocking language, it does not wait instead it start executing further.
+- This os possible with the help of callbacks.
+
+# Disadvantage of callbacks
+- Readability, complexity and debugging becomes very tough, loss of control flow.
+- Result of the callback stroed in the variable would become undefined.
+- Callback can't be wraped in try/catch.
+- Can't decide weather the callback is habdled as sunc or insync way.
