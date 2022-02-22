@@ -245,3 +245,29 @@ class Dhananjay extends Dj{
 - Result of the callback stroed in the variable would become undefined.
 - Callback can't be wraped in try/catch.
 - Can't decide weather the callback is habdled as sunc or insync way.
+
+# Promises(Future)
+- Promise is an object which represents eventual completion of some task.
+- There are three states of Promise.
+- Pending.
+- Fulfilled.
+- Rejected
+# Promiss Fulfilment
+- After fulfilment is one time process, if it is fulfilled it can't be rejected and vice ver...
+const pms = new Promise((resolve, reject)=>{
+   resolve(10);
+})
+
+# Consuming of Promises
+- .then, .catch, .finally
+
+# .then
+- It takes two functions one for resolved and one for rejected.
+- pms.then((res) => console.log(`Resolved ${res}`), (err) => console.error(err));
+
+# .catch
+- It has only one function that execreed on rejected.
+- It promise is rejected nearest catch block is called.
+# .finally 
+- It is called on the Promise fulfilment
+pms.finally(()=> {});
