@@ -326,3 +326,14 @@ then(res => console.log(res));
 
 - Promise.all([sleep(1000,20), sleep(2000,30), sleep(3000,40)]).then(console.log)
 - All the promises works parrelally and will take max(all) of the time,This waits for all resolved or at least one rejected.
+
+# Race
+- Promise.race([sleep(1000,20), sleep(2000,30), sleep(3000,40)]).then(console.log) 
+- This will return the first selleted promise.
+
+# allSettled
+- Promise.allSettled([sleep(1000,20), sleep(2000,30), sleep(3000,40)]).then(console.log)
+- This will give all the rejected values either resolved or rejected.
+
+# Any
+- It returns all the rejected or first fulfilled value.
