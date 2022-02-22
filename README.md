@@ -337,3 +337,12 @@ then(res => console.log(res));
 
 # Any
 - It returns all the rejected or first fulfilled value.
+
+# Symbols
+- Symbols are new premitive types introduced in ES6.
+- These can be created using Symbole().
+- It can be used for data encaptulations.
+
+# Why Symbols
+- Symbols are always unique.
+- This helps to create a weak form of encaptulations.
