@@ -271,3 +271,39 @@ const pms = new Promise((resolve, reject)=>{
 # .finally 
 - It is called on the Promise fulfilment
 pms.finally(()=> {});
+
+# Nested promises
+- const pms = new Promise((resolve, reject)=>{
+    resolve(10);
+})
+pms.
+then((res) => {
+return res*2
+}).
+then(res => {return res*3}).
+then(res => console.log(res));
+- Output of the one promise becomes the input for other.
+
+# If we attach multiple handlers will give same result at promise have already been resolved.
+- Promise.resolve(10).then(res => {
+-    console.log(res)
+- }).then((res) => {
+-    console.log(res)
+- }).then((res)=> {
+-    console.log(res)
+-})
+- Output will be 10,undefined, undefined as it is nested and parent promise does not return anything.
+
+# Multiple promise 
+
+- const p = Promise.resolve(10)
+- p.then(res => {
+-     console.log(res)
+- })
+- p.then((res) => {
+-     console.log(res)
+- })
+- p.then((res)=> {
+-    console.log(res)
+- })
+- This will give 10,10,1o
