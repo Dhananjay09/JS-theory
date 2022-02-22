@@ -316,3 +316,13 @@ then(res => console.log(res));
 
 # When any variable is passed in Promise.resolve() it gives a Promise.
 # If a promise itself is passed still the same promise will get resturned.
+
+# Promise.all()
+- function sleep(ms, value){
+-    return new Promise((resolve) => {
+-        setTimeout(()=>{resolve(value)}, ms)
+-    })
+- }
+
+- Promise.all([sleep(1000,20), sleep(2000,30), sleep(3000,40)]).then(console.log)
+- All the promises works parrelally and will take max(all) of the time,This waits for all resolved or at least one rejected.
