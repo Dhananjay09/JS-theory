@@ -346,3 +346,26 @@ then(res => console.log(res));
 # Why Symbols
 - Symbols are always unique.
 - This helps to create a weak form of encaptulations.
+
+# Charecterstics of Symbols
+- Symbols type can not be converted.
+- Symbols are always unique.
+
+# Well-Known Symbols
+- These symbols can be used to change the behaviour of the JS.
+# Symbols.hasInstance
+- It can change the instanceof of a object.
+- Example
+- class A {
+- static [Symbols.hasInstance](){ return false}
+- }
+- const b = new A(); // this will give false.
+# There are many more well known synbols
+- Symbol.match
+- Symbol.replace
+- Symbol.iterator
+
+# Iterator
+- ES6 introduced for of, its good to use.
+- const x = str[Symbol.iterator]();
+- console.log(itr.next());
