@@ -307,3 +307,12 @@ then(res => console.log(res));
 -    console.log(res)
 - })
 - This will give 10,10,1o
+
+# Aggregate functions in Promise
+- Promise.all()
+- Promise.race()
+- Promise.allSettled()
+- Promise.any()
+
+# When any variable is passed in Promise.resolve() it gives a Promise.
+# If a promise itself is passed still the same promise will get resturned.
